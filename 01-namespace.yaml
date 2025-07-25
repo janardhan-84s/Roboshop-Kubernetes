@@ -1,0 +1,8 @@
+# creating a namespace for our roboshop project in DEV environment
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: roboshop
+  labels:
+    project: roboshop
+    environment: dev
